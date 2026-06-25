@@ -1,5 +1,10 @@
 # 🏥 Hospital Readmission Prediction Using Machine Learning
 
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![CatBoost](https://img.shields.io/badge/CatBoost-ML-orange)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-ML-red)
+![License](https://img.shields.io/badge/License-MIT-green)
+
 ## 📌 Project Overview
 
 Hospital readmissions within 30 days are a major concern for healthcare providers because they increase healthcare costs, reduce hospital efficiency, and may indicate gaps in patient care. Early identification of patients at high risk of readmission can help clinicians implement targeted interventions and improve patient outcomes.
@@ -7,7 +12,16 @@ Hospital readmissions within 30 days are a major concern for healthcare provider
 This project develops a machine learning model to predict **30-day hospital readmission** for diabetic patients using the **UCI Diabetes 130-US Hospitals Dataset**. Multiple machine learning algorithms were evaluated, and **CatBoost** achieved the best overall performance.
 
 ---
+## Final Results
 
+| Metric | Value |
+|---------|------:|
+| Best Model | CatBoost |
+| ROC-AUC | **0.694** |
+| Accuracy | **74%** |
+| Precision | **21%** |
+| Recall | **49%** |
+| F1 Score | **0.30** |
 ## 🎯 Objectives
 
 - Predict whether a diabetic patient will be readmitted within **30 days**.
